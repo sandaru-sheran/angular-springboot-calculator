@@ -1,0 +1,30 @@
+.tableStyled {
+    background-color: rgb(0, 0, 0);
+    align-content: ;
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+
+.tableStyled tr {
+  border: 5px solid black;
+  height: 100px;
+  padding: 10px;
+}
+.tableStyled td {
+    border-radius: 30px;
+  background-color: rgb(206, 219, 133);
+  border: 5px solid black; 
+  text-align: center;
+  font-size: 50px;
+  width: 100px;
+  padding: 10px;
+}
+.input {
+    background-color: rgb(176, 223, 241);
+    font-size: 50px;
+    font-weight: bold;
+    border: .13cm solid black;
+    text-align: right;
+  width: 405px;
+  height: 100px;
+}

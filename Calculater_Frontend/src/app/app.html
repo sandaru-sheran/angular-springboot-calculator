@@ -1,0 +1,35 @@
+
+  <input [value]="formula" class="input" type="text" placeholder="0" readonly/>
+<table class="tableStyled">
+  <tr>
+    <td (click)="numberClick('1')"><button  type="button">1</button></td>
+    <td (click)="numberClick('2')"><button  type="button">2</button></td>
+    <td (click)="numberClick('3')"><button  type="button">3</button></td>
+    <td (click)="numberClick('+')"><button  type="button">+</button></td>
+  </tr>
+  <tr>
+    <td (click)="numberClick('4')"><button  type="button">4</button></td>
+    <td (click)="numberClick('5')"><button  type="button">5</button></td>
+    <td (click)="numberClick('6')"><button  type="button">6</button></td>
+    <td (click)="numberClick('-')"><button  type="button">-</button></td>
+  </tr>
+  <tr>
+    <td (click)="numberClick('7')"><button  type="button">7</button></td>
+    <td (click)="numberClick('8')"><button  type="button">8</button></td>
+    <td (click)="numberClick('9')"><button  type="button">9</button></td>
+    <td (click)="multyClick()"><button  type="button">x</button></td>
+  </tr>
+  <tr>
+    <td (click)="numberClick('.')"><button  type="button">.</button></td>
+    <td (click)="numberClick('0')"><button  type="button">0</button></td>
+    <td (click)="equalsClick()"><button  type="button">=</button></td>
+    <td (click)="numberClick('/')"><button  type="button">/</button></td>
+  </tr>
+  <tr>
+    <td style="background-color: red;" colspan="4"><button (click)="clearClick()" type="button">Clear</button></td>
+  </tr>
+
+</table>
+
+
+<router-outlet />
